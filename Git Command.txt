@@ -1,0 +1,80 @@
+Commands Of Git:-
+
+1. git rm -rf .git :- This Command Delete The .git Repositary
+
+2.PWD:- Present Working directory Shows The Working Directory Where You Work
+
+3.ls:- Shows The List Of Working Directory
+
+4.cd File/Document_Name :- Change Directory Command. It Is use To Change The Working Directory
+
+5.git add file_name:- Add A file To Git Stagging Area
+
+5.git add --a:- Add All The File In Stagging Area Where The Working Directory
+
+6.git commit --m:- Commit or Saving Changes Of All The File In The Working Directory
+
+7. touch (File_Name):- Create File In The Working Directory
+
+8. .gitignore:- It Is A Text File That Tells Git Which File Or Folder Can Be Ignore
+
+8(i):- Steps To Create A .gitignore File:-
+	(A): Create A File Using Touch Command In Git (touch .git ignore)
+	(B): Open The Text File 
+	(c): Than Enter The File Which You can Ignore With Extension (For E.g: Error.log, Error.txt Here Log Or Txt Is Extension)
+	(D): If You Have Bunch Of File With Same Extension Than You Can Write In The Text File Of .gitignore (*.Extension Here Extension Is Which Type Of File You Ignore)
+	(E): If You Ignore Any Folder Than You Can Ignore All The Folder With THe Same Name Present Or Present In Any Empty Folder
+
+9. git diff :- This Command Compare The Staging Area And Working Directory
+
+10. git diff --staged :- This Command Compare The Staging Area And Your Last Commit
+
+11. git rm "File_Name.Extension":- This Command Will Delete The File And If You Do "git status" Now It Will Say That The File Is Deleted And Also Staged.
+						Now You Can Commit It Using Command "git Commit -a -m '''Commit''' "
+
+12. git mv File_Name.Extension File_Rename.Extension:- This Command Is Use To Rename The "File_Name.Extension" To "File_Rename.Extension". And It Will Automatically Staged
+										The File.
+
+13. git rm --cached File.Extension:- This Command Helps To Remove The File From Tracker And It Will Become Untracked File.
+
+14. git log :- This Command Shows A List Of All The Commits Made To A Repository
+
+15. git log -p :- This Command Shows What Has Been Change On Commits.
+
+16. git log -3 :- This Command Shows The Specific Number Of Commits With Changes (Seeing Last Three Commits With Changes)
+
+17.git log --stat :- This Command Shows The Commit With Changes With Brief Summary
+
+18. git log --pretty=oneline :- This Command Shows All The Commits In One Line
+
+19. git log --pretty=short :- This Command Shows The Commits And Authour
+
+20. git log --pretty=full :- This Command Shows The Information About Committer And Commit Message
+
+21. git log --since-2.days :- This Command Shows Filter The Commit (Shows Only 2 Days Commit Information)
+
+22. git log --since-2.weeks :- This Command Shows Filter The Commit (Shows Only 2 Days Weeks Information)
+
+23. git log --since-2.months :- This Command Shows Filter The Commit (Shows Only 2 Months Commit Information)
+
+24. git commit --amend :-  This Command Change The Commits And Also Modified The Files If You Are Done Any Modification
+
+25. mkdir Directory_Name :- Use To Create A New Directory
+
+26. ls -a :- Display All The File Including Hidden
+
+27. Alias Command :- This Comand Is Use To Replace The String That Invokes A Command In The Git Shell With Another User Defined Command
+
+28. Use Of Alias Command :- 
+	1.Open the git bash shell
+	2.Type "git config --global alias.st status" And Press Enter 
+	3.Now what it means is if we type "git st" it will gives us a output of git status
+	4.Let do another one
+	5.Now type "git config --global alias.unstaged 'restore --unstaged --'"
+	6.Now if you type "git unstaged" it will gives us a output of "restore --unstaged --"
+
+29. git checkout -b (Branch_Name) :- Use To Create A New Branch In The Repositorary
+
+30. git checkout (Branch_Name) :- Use To Switching The Branches. Where You Can Work
+
+31.
